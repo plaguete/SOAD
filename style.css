@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://img1.picmix.com/output/stamp/normal/1/8/3/2/1812381_b4743.gif);
+    background-size: cover;
+    background-repeat: none;
+    color: #e0e0e0;
+    transition: font-size 0.3s ease;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(95, 7, 7, 0.322);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #860000;
+}
+
+h1 {
+    color: #a50000;
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.btn-container button {
+    background-color: #520000;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-container button:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+}
+
+.content {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #141414;
+    border-radius: 8px;
+    border-left: 4px solid #9e1313;
+}
+
+h2 {
+    color: #970000;
+    margin-top: 0;
+}
+
+.discografia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.albumuno {
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border-left: 4px solid #9e1313; 
+}
+.albumdos {
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border-left: 4px solid #fffdfd; 
+}
+
+.album-container{
+    
+    display: flex; /* Usa flexbox para alinhar os elementos lado a lado */
+    align-items: flex-start;
+}
+
+.album-image {
+    margin-left: 20px;/* Adiciona um espaço entre a lista e a imagem */
+}
+
+.album-image img {
+    max-width: 150px; /* Define a largura máxima da imagem */
+    height: auto;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#uno {
+    color: #a30000;
+    margin-top: 0;
+}
+#dos {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+
+ul {
+    font-size: 1em;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+.text {
+    font-size: 1em;
+}
