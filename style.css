@@ -16,7 +16,7 @@ body {
     background-color: #000000;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(95, 7, 7, 0.322);
+    box-shadow: 0 0 15px rgba(156, 8, 8, 0.651);
 }
 
 header {
@@ -47,7 +47,7 @@ h1 {
 }
 
 .btn-container button:hover {
-    background-color: #000000;
+    background-color: #1a1a1a;
     transform: scale(1.05);
 }
 
@@ -57,6 +57,12 @@ h1 {
     background-color: #141414;
     border-radius: 8px;
     border-left: 4px solid #9e1313;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.content:hover {
+    background-color: #1e1e1e; 
+    transform: scale(1.02); 
 }
 
 h2 {
@@ -75,43 +81,57 @@ h2 {
     padding: 15px;
     border-radius: 6px;
     margin-bottom: 20px;
-    border-left: 4px solid #9e1313; 
+    border-left: 4px solid #9e1313;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
 }
+
+.albumuno:hover {
+    background-color: #2c2c2c; 
+    transform: scale(1.02);
+}
+
 .albumdos {
     background-color: #222222;
     padding: 15px;
     border-radius: 6px;
     margin-bottom: 20px;
-    border-left: 4px solid #fffdfd; 
+    border-left: 4px solid #fffdfd;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
-.album-container{
-    
-    display: flex; /* Usa flexbox para alinhar os elementos lado a lado */
+.albumdos:hover {
+    background-color: #2c2c2c; 
+    transform: scale(1.02); 
+}
+
+.album-container {
+    display: flex;
     align-items: flex-start;
 }
 
 .album-image {
-    margin-left: 20px;/* Adiciona um espaço entre a lista e a imagem */
+    margin-left: 20px;
 }
 
 .album-image img {
-    max-width: 150px; /* Define a largura máxima da imagem */
+    max-width: 150px;
     height: auto;
     border-radius: 30px;
     margin-left: 50px;
     margin-bottom: 20px;
+    
 }
 
 #uno {
     color: #a30000;
     margin-top: 0;
+    
 }
+
 #dos {
     color: #ffffff;
     margin-top: 0;
 }
-
 
 ul {
     font-size: 1em;
